@@ -16,7 +16,7 @@ window.addEventListener('touchstart', (e) => {
 
 window.addEventListener('touchmove', (e) => {
   const deltaY = e.touches[0].clientY - startY;
-  offset += deltaY * 1; // Điều chỉnh độ nhạy vuốt
+  offset += deltaY * 0.5; // Điều chỉnh độ nhạy vuốt
   startY = e.touches[0].clientY; // cập nhật lại vị trí bắt đầu để liên tục tính
   applyTransform();
 });
