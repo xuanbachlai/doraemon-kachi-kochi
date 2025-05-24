@@ -134,6 +134,7 @@ body, html {
 
     #typing-container, #typing-sequence p, #cursor {
         font-size: 16px;
+        margin-left: -20px;
     }
 
     #author-name {
@@ -147,16 +148,18 @@ body, html {
     #doraemon {
         width: 140px;
         margin-bottom: 0px;
+        margin-left: -20px;
     }
 
     #book {
         display: block;
         width: 160px;
         margin-top: 200px;
+        margin-left: -25px;
     }
 
     .content-panel {
         padding: 20px;
-        height: 200vh;
+        height: 160vh;
     }
 }
