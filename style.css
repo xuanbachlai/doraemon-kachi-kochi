@@ -126,15 +126,28 @@ body, html {
     50.01%, 100% { opacity: 0; }
 }
 
+@media (max-width: 500px) {
+    #doraemon {
+        width: 140px;
+        margin-bottom: 0px;
+        margin-left: -20px;
+    }
+    #book {
+        display: block;
+        width: 160px;
+        margin-top: 200px;
+        margin-left: -25px;
+    }
+    #typing-container, #typing-sequence p, #cursor {
+        font-size: 16px;
+        margin-left: -20px;
+    }
+}
+
 @media (max-width: 430px) {
     #name-film {
         top: -2%;
         font-size: 20px;
-    }
-
-    #typing-container, #typing-sequence p, #cursor {
-        font-size: 16px;
-        margin-left: -20px;
     }
 
     #author-name {
@@ -143,19 +156,6 @@ body, html {
 
     #info-film {
         font-size: 12px;
-    }
-
-    #doraemon {
-        width: 140px;
-        margin-bottom: 0px;
-        margin-left: -20px;
-    }
-
-    #book {
-        display: block;
-        width: 160px;
-        margin-top: 200px;
-        margin-left: -25px;
     }
 
     .content-panel {
